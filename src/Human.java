@@ -15,6 +15,8 @@ public class Human extends Player{
     public String toString(){
         return "Human";
     }
+    
+    /*出すものを決めるための数を入力する関数*/
     public int hand(){
         Scanner stdIn =new Scanner(System.in);
         int u;
