@@ -16,6 +16,8 @@ public class Cpu extends Player {
     public String toString(){
         return "cpu";
     }
+    
+    /*ランダムで出すもの決めるための関数*/
     public int hand(){
      Random rand = new Random();
      int c = rand.nextInt(3);
